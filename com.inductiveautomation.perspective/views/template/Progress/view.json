@@ -1,0 +1,142 @@
+{
+  "custom": {},
+  "params": {
+    "Order_count": 15000,
+    "Order_target": 10024
+  },
+  "propConfig": {
+    "params.Order_count": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.Order_target": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 160,
+      "width": 400
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Title"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "style": {
+            "classes": "Progress/Title"
+          },
+          "text": "Order progress"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Value"
+            },
+            "position": {
+              "basis": "207px"
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "expression": "{view.params.Order_count} + \" / \" + {view.params.Order_target}"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "Progress/Value"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "43px"
+            },
+            "props": {
+              "alignVertical": "bottom",
+              "style": {
+                "classes": "Progress/Unit"
+              },
+              "text": "copy"
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "48px"
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "Progress_0"
+        },
+        "position": {
+          "basis": "20px"
+        },
+        "propConfig": {
+          "props.max": {
+            "binding": {
+              "config": {
+                "path": "view.params.Order_target"
+              },
+              "type": "property"
+            }
+          },
+          "props.value": {
+            "binding": {
+              "config": {
+                "path": "view.params.Order_count"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "bar": {
+            "color": "#34D39E"
+          },
+          "track": {
+            "color": "#DBDCE3"
+          }
+        },
+        "type": "ia.display.progress"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "justify": "space-around",
+      "style": {
+        "classes": "Progress/Card"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

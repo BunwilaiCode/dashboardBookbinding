@@ -1,0 +1,10 @@
+{
+  "base": {
+    "style": {
+      "color": "#EDF0FF",
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "textAlign": "right"
+    }
+  }
+}

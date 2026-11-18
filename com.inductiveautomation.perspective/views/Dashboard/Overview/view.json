@@ -1,0 +1,2967 @@
+{
+  "custom": {
+    "CurrentProductOrder": {
+      "Bar": {
+        "Order_count": 15000
+      },
+      "binding": {
+        "detail": "Adhesive",
+        "title": "Binding"
+      },
+      "bookSize": {
+        "title": "Book size"
+      },
+      "bookType": {
+        "detail": "Brochure",
+        "title": "Book type"
+      },
+      "coverMode": {
+        "detail": "1 × Single",
+        "title": "Cover mode"
+      },
+      "coverSize": {
+        "title": "Cover size"
+      },
+      "coverThickness": {
+        "title": "Cover thickness"
+      },
+      "job": {
+        "title": "Job"
+      },
+      "po": "PO-2026-0666-088",
+      "thickness": {
+        "title": "Thickness"
+      }
+    },
+    "Equipment": [
+      {
+        "downtime": "00:05:20",
+        "equipment": "Gathering Station",
+        "good": 8588,
+        "lastEvent": "Station 09 miss-feed",
+        "reject": 84,
+        "speed": "6,920 cph",
+        "status": "RUNNING"
+      },
+      {
+        "downtime": "00:00:00",
+        "equipment": "Finger Chain",
+        "good": 8504,
+        "lastEvent": "Encoder synchronized",
+        "reject": 0,
+        "speed": "Pitch 100%",
+        "status": "SYNC"
+      },
+      {
+        "downtime": "00:09:45",
+        "equipment": "Perfect Binder",
+        "good": 8420,
+        "lastEvent": "Glue temperature low",
+        "reject": 42,
+        "speed": "6,850 cph",
+        "status": "WARNING"
+      },
+      {
+        "downtime": "00:03:10",
+        "equipment": "Delivery Conveyor",
+        "good": 8420,
+        "lastEvent": "Discharge clear",
+        "reject": 0,
+        "speed": "32 m/min",
+        "status": "RUNNING"
+      },
+      {
+        "downtime": "00:18:15",
+        "equipment": "Stacker / Next Line",
+        "good": 0,
+        "lastEvent": "Waiting upstream",
+        "reject": 0,
+        "speed": "0 m/min",
+        "status": "STOPPED"
+      }
+    ],
+    "OEE": {
+      "Availability": {
+        "Value": 93.33333333333333
+      },
+      "Performance": {
+        "Value": 93.07692307692308
+      },
+      "QualityRate": {
+        "Value": 96.7741935483871
+      }
+    },
+    "gatheringHeads": [
+      {
+        "headNo": 1,
+        "sheetCount": 2460,
+        "status": "normal"
+      },
+      {
+        "headNo": 2,
+        "sheetCount": 2418,
+        "status": "normal"
+      },
+      {
+        "headNo": 3,
+        "sheetCount": 2505,
+        "status": "normal"
+      },
+      {
+        "headNo": 4,
+        "sheetCount": 350,
+        "status": "low"
+      },
+      {
+        "headNo": 5,
+        "sheetCount": 2392,
+        "status": "normal"
+      },
+      {
+        "headNo": 6,
+        "sheetCount": 2488,
+        "status": "normal"
+      },
+      {
+        "headNo": 7,
+        "sheetCount": 2440,
+        "status": "normal"
+      },
+      {
+        "headNo": 8,
+        "sheetCount": 2511,
+        "status": "normal"
+      },
+      {
+        "headNo": 9,
+        "sheetCount": 2366,
+        "status": "normal"
+      },
+      {
+        "headNo": 10,
+        "sheetCount": 2407,
+        "status": "normal"
+      },
+      {
+        "headNo": 11,
+        "sheetCount": 2431,
+        "status": "normal"
+      },
+      {
+        "headNo": 12,
+        "sheetCount": 2498,
+        "status": "normal"
+      },
+      {
+        "headNo": 13,
+        "sheetCount": 2472,
+        "status": "normal"
+      },
+      {
+        "headNo": 14,
+        "sheetCount": 2455,
+        "status": "normal"
+      },
+      {
+        "headNo": 15,
+        "sheetCount": 2390,
+        "status": "normal"
+      },
+      {
+        "headNo": 16,
+        "sheetCount": 0,
+        "status": "error"
+      }
+    ],
+    "kpiData": {
+      "actualTarget": {
+        "Color": "#EDF0FF",
+        "title": "Actual / Target"
+      },
+      "downtime": {
+        "Color": "#f87171",
+        "title": "Downtime",
+        "unit": "min",
+        "value": 12
+      },
+      "efficiency": {
+        "Color": "#34D39E",
+        "title": "Efficiency",
+        "unit": "Target ≥ 85%",
+        "value": 87
+      },
+      "oee": {
+        "Color": "#34D39E",
+        "title": "OEE",
+        "unit": "Avail/Perf/Qual"
+      },
+      "productionSpeed": {
+        "Color": "#EDF0FF",
+        "title": "Production Speed",
+        "unit": "copies / hour"
+      },
+      "reject": {
+        "Color": "#f59e0b",
+        "title": "Reject",
+        "unit": "Reject rate 1.13%"
+      }
+    },
+    "perfectBinder": {
+      "coverFeeder": {
+        "detail": "Single · 419.0 mm",
+        "status": "normal",
+        "title": "Cover Feeder"
+      },
+      "infeedClamps": {
+        "status": "normal",
+        "title": "Infeed \u0026 Clamps"
+      },
+      "laydown": {
+        "detail": "Running · 16%",
+        "status": "normal",
+        "title": "Laydown"
+      },
+      "nippingPress": {
+        "detail": "Position OK",
+        "status": "normal",
+        "title": "Nipping / Press"
+      },
+      "rejectGate": {
+        "status": "normal",
+        "title": "Reject Gate"
+      },
+      "sideGlue": {
+        "status": "normal",
+        "title": "Side Glue"
+      },
+      "spineGlue": {
+        "status": "normal",
+        "title": "Spine Glue"
+      },
+      "spinePreparation": {
+        "status": "normal",
+        "title": "Spine Preparation"
+      }
+    }
+  },
+  "params": {},
+  "propConfig": {
+    "custom.CurrentProductOrder": {
+      "persistent": true
+    },
+    "custom.CurrentProductOrder.Bar.Order_target": {
+      "binding": {
+        "config": {
+          "path": "view.custom.kpiData.actualTarget.TargetQuantity"
+        },
+        "type": "property"
+      }
+    },
+    "custom.CurrentProductOrder.bookSize.detail": {
+      "binding": {
+        "config": {
+          "expression": "{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/BookWidth} + \" x \" + {[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/BookLength}+ \" mm\""
+        },
+        "type": "expr"
+      }
+    },
+    "custom.CurrentProductOrder.coverSize.detail": {
+      "binding": {
+        "config": {
+          "expression": "{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/CoverWidth}+\" x \" + {[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/CoverLength} + \" mm\""
+        },
+        "type": "expr"
+      }
+    },
+    "custom.CurrentProductOrder.coverThickness.detail": {
+      "binding": {
+        "config": {
+          "expression": "{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/CoverThickness}+ \" mm\""
+        },
+        "type": "expr"
+      }
+    },
+    "custom.CurrentProductOrder.job.detail": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Name"
+        },
+        "type": "tag"
+      }
+    },
+    "custom.CurrentProductOrder.thickness.detail": {
+      "binding": {
+        "config": {
+          "expression": "{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Job/Spec/BookThickness} + \" mm\""
+        },
+        "type": "expr"
+      }
+    },
+    "custom.Equipment": {
+      "persistent": true
+    },
+    "custom.OEE": {
+      "persistent": true
+    },
+    "custom.OEE.OEE": {
+      "binding": {
+        "config": {
+          "expression": "({view.custom.OEE.Availability.Value}*{view.custom.OEE.Performance.Value}*{view.custom.OEE.QualityRate.Value})/10000"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.gatheringHeads": {
+      "persistent": true
+    },
+    "custom.kpiData": {
+      "persistent": true
+    },
+    "custom.kpiData.actualTarget.TargetQuantity": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/Order/TargetQuantity"
+        },
+        "type": "tag"
+      }
+    },
+    "custom.kpiData.actualTarget.unit": {
+      "binding": {
+        "config": {
+          "expression": "\u0027from \u0027 + {view.custom.kpiData.actualTarget.TargetQuantity} + \u0027 books\u0027"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.kpiData.actualTarget.value": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/OEE/TotalOutputCount"
+        },
+        "type": "tag"
+      }
+    },
+    "custom.kpiData.oee.value": {
+      "binding": {
+        "config": {
+          "path": "view.custom.OEE.OEE"
+        },
+        "transforms": [
+          {
+            "formatType": "numeric",
+            "formatValue": "0.0\u0027%\u0027",
+            "type": "format"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "custom.kpiData.productionSpeed.value": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/OEE/ActualProductionSpeed"
+        },
+        "type": "tag"
+      }
+    },
+    "custom.kpiData.reject.value": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/OEE/TotalRejectCount"
+        },
+        "type": "tag"
+      }
+    },
+    "custom.perfectBinder": {
+      "persistent": true
+    },
+    "custom.perfectBinder.infeedClamps.detail": {
+      "binding": {
+        "config": {
+          "expression": "{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/ClampsStatus}+\u0027 · \u0027 +{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/ClampsPosition} + \u0027 mm\u0027"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.perfectBinder.rejectGate.detail": {
+      "binding": {
+        "config": {
+          "expression": "//146 rejected\r\n{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/OEE/TotalRejectCount} + \" rejected\""
+        },
+        "type": "expr"
+      }
+    },
+    "custom.perfectBinder.sideGlue.detail": {
+      "binding": {
+        "config": {
+          "expression": "//170 °C · Ready\r\n{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/SideGlue/Temperature} + \u0027 °C · \u0027 + {[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/SideGlue/Ready}"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.perfectBinder.spineGlue.detail": {
+      "binding": {
+        "config": {
+          "expression": "//190 °C · Ready\r\n{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/SpineGlue/Temperature} + \u0027 °C · \u0027+{[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/SpineGlue/Ready}"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.perfectBinder.spinePreparation.detail": {
+      "binding": {
+        "config": {
+          "expression": "\"Milling / Roughing \" + {[MQTT Engine]Edge Nodes/NodeRED_VM/Factory/BookBinder/PerfectBinder/MillingRoughingMotor}"
+        },
+        "type": "expr"
+      }
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 2080,
+      "width": 1980
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1
+            },
+            "props": {
+              "path": "template/Header_page"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "Head"
+        },
+        "position": {
+          "basis": "56px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "BG"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "ActualTarget"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.actualTarget"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "ProductionSpeed"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.productionSpeed"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "Efficiency"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.efficiency"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "events": {
+              "dom": {
+                "onDoubleClick": {
+                  "config": {
+                    "draggable": true,
+                    "id": "quQryI2E",
+                    "modal": false,
+                    "overlayDismiss": false,
+                    "resizable": true,
+                    "showCloseIcon": true,
+                    "type": "open",
+                    "viewParams": {
+                      "avail": "{view.custom.OEE.Availability.Value}",
+                      "oee": "{view.custom.OEE.OEE}",
+                      "perf": "{view.custom.OEE.Performance.Value}",
+                      "qual": "{view.custom.OEE.QualityRate.Value}"
+                    },
+                    "viewPath": "Dashboard/popup/Popup_OEE",
+                    "viewportBound": false
+                  },
+                  "scope": "C",
+                  "type": "popup"
+                }
+              }
+            },
+            "meta": {
+              "name": "OEE"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.oee"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "draggable": true,
+                    "id": "FeO1hZUn",
+                    "modal": false,
+                    "overlayDismiss": false,
+                    "resizable": true,
+                    "showCloseIcon": true,
+                    "type": "open",
+                    "viewPath": "Dashboard/popup/Popup_reject",
+                    "viewportBound": false
+                  },
+                  "scope": "C",
+                  "type": "popup"
+                }
+              }
+            },
+            "meta": {
+              "name": "Reject"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.reject"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "Downtime"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.kpiData.downtime"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "template/KPI"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "Kpi_bar"
+        },
+        "position": {
+          "basis": "160px",
+          "shrink": 0
+        },
+        "props": {
+          "alignContent": "center",
+          "alignItems": "center",
+          "justify": "space-evenly",
+          "style": {
+            "classes": "BG"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "head"
+                },
+                "position": {
+                  "basis": "90px"
+                },
+                "props": {
+                  "params": {
+                    "status": "Current shift",
+                    "title": "Line Overview"
+                  },
+                  "path": "template/header_pad",
+                  "style": {
+                    "classes": "finger-chain-running"
+                  }
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Header/Title"
+                              },
+                              "text": "Gathering Machine"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "FlexRepeater"
+                            },
+                            "position": {
+                              "basis": "30px",
+                              "grow": 1,
+                              "shrink": 0
+                            },
+                            "propConfig": {
+                              "props.instances": {
+                                "binding": {
+                                  "config": {
+                                    "path": "view.custom.gatheringHeads"
+                                  },
+                                  "type": "property"
+                                }
+                              }
+                            },
+                            "props": {
+                              "alignContent": "flex-start",
+                              "elementPosition": {
+                                "shrink": 0
+                              },
+                              "justify": "center",
+                              "path": "template/gathering/card",
+                              "wrap": "wrap"
+                            },
+                            "type": "ia.display.flex-repeater"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "350px",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "props": {
+                          "direction": "column",
+                          "style": {
+                            "classes": "Production_detail/Inside_card"
+                          },
+                          "wrap": "wrap"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Gathering"
+                    },
+                    "position": {
+                      "basis": "30%"
+                    },
+                    "props": {
+                      "direction": "column",
+                      "justify": "space-evenly",
+                      "style": {
+                        "classes": "finger-chain-running"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "title"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Header/Title"
+                              },
+                              "text": "Finger Chain"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "Describ"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "KPI/Unit Progress/Title"
+                              },
+                              "text": "Synchronized transfer"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "Drawing"
+                            },
+                            "position": {
+                              "basis": "162px"
+                            },
+                            "props": {
+                              "elements": [
+                                {
+                                  "fill": {
+                                    "paint": "#111a2b"
+                                  },
+                                  "height": 124,
+                                  "name": "outer_track",
+                                  "rx": 27,
+                                  "ry": 27,
+                                  "stroke": {
+                                    "paint": "#2d446b",
+                                    "width": 5
+                                  },
+                                  "type": "rect",
+                                  "width": 54,
+                                  "x": 3,
+                                  "y": 3
+                                },
+                                {
+                                  "fill": {
+                                    "paint": "#38bdf8"
+                                  },
+                                  "height": 8,
+                                  "name": "finger_top",
+                                  "rx": 4,
+                                  "ry": 4,
+                                  "style": {
+                                    "filter": "drop-shadow(0 0 4px #38bdf8)"
+                                  },
+                                  "type": "rect",
+                                  "width": 34,
+                                  "x": 13,
+                                  "y": 18
+                                },
+                                {
+                                  "fill": {
+                                    "paint": "#38bdf8"
+                                  },
+                                  "height": 8,
+                                  "name": "finger_middle",
+                                  "rx": 4,
+                                  "ry": 4,
+                                  "style": {
+                                    "filter": "drop-shadow(0 0 4px #38bdf8)"
+                                  },
+                                  "type": "rect",
+                                  "width": 34,
+                                  "x": 13,
+                                  "y": 61
+                                },
+                                {
+                                  "fill": {
+                                    "paint": "#38bdf8"
+                                  },
+                                  "height": 8,
+                                  "name": "finger_bottom",
+                                  "rx": 4,
+                                  "ry": 4,
+                                  "style": {
+                                    "filter": "drop-shadow(0 0 4px #38bdf8)"
+                                  },
+                                  "type": "rect",
+                                  "width": 34,
+                                  "x": 13,
+                                  "y": 104
+                                }
+                              ],
+                              "viewBox": "0 0 60 130"
+                            },
+                            "type": "ia.shapes.svg"
+                          },
+                          {
+                            "meta": {
+                              "name": "status"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "KPI/Unit Progress/Title"
+                              },
+                              "text": " Sync OK · 100.0%"
+                            },
+                            "type": "ia.display.label"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "200px",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "props": {
+                          "alignItems": "center",
+                          "direction": "column",
+                          "justify": "space-evenly",
+                          "style": {
+                            "classes": "Production_detail/Card_Detail_1 Production_detail/Inside_card"
+                          }
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FingerChain "
+                    },
+                    "position": {
+                      "basis": "20%"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label_PerfectBinder"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Header/Title"
+                              },
+                              "text": "Perfect Binder"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "children": [
+                              {
+                                "meta": {
+                                  "name": "InfeedClamps"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.infeedClamps"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "events": {
+                                  "dom": {
+                                    "onDoubleClick": {
+                                      "config": {
+                                        "draggable": true,
+                                        "id": "xHOs6xnF",
+                                        "modal": false,
+                                        "overlayDismiss": false,
+                                        "resizable": true,
+                                        "showCloseIcon": true,
+                                        "type": "open",
+                                        "viewPath": "Dashboard/popup/Popup_glue",
+                                        "viewportBound": false
+                                      },
+                                      "scope": "C",
+                                      "type": "popup"
+                                    }
+                                  }
+                                },
+                                "meta": {
+                                  "name": "SpineGlue"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.spineGlue"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "events": {
+                                  "dom": {
+                                    "onClick": {
+                                      "config": {
+                                        "draggable": true,
+                                        "id": "9nFK4Uug",
+                                        "modal": false,
+                                        "overlayDismiss": false,
+                                        "resizable": true,
+                                        "showCloseIcon": true,
+                                        "type": "open",
+                                        "viewPath": "Dashboard/popup/Popup_CoverFeeder",
+                                        "viewportBound": false
+                                      },
+                                      "scope": "C",
+                                      "type": "popup"
+                                    }
+                                  }
+                                },
+                                "meta": {
+                                  "name": "CoverFeeder"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.coverFeeder"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "meta": {
+                                  "name": "Laydown"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.laydown"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "meta": {
+                                  "name": "SpinePreparation"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.spinePreparation"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "meta": {
+                                  "name": "SideGlue"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.sideGlue"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "meta": {
+                                  "name": "NippingPress"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.nippingPress"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              },
+                              {
+                                "meta": {
+                                  "name": "RejectGate"
+                                },
+                                "position": {
+                                  "basis": "25%",
+                                  "grow": 1,
+                                  "shrink": 0
+                                },
+                                "propConfig": {
+                                  "props.params": {
+                                    "binding": {
+                                      "config": {
+                                        "path": "view.custom.perfectBinder.rejectGate"
+                                      },
+                                      "type": "property"
+                                    }
+                                  }
+                                },
+                                "props": {
+                                  "path": "template/Corona"
+                                },
+                                "type": "ia.display.view"
+                              }
+                            ],
+                            "meta": {
+                              "name": "Detail"
+                            },
+                            "position": {
+                              "basis": "320px",
+                              "grow": 1
+                            },
+                            "props": {
+                              "direction": "column",
+                              "justify": "space-evenly",
+                              "wrap": "wrap"
+                            },
+                            "type": "ia.container.flex"
+                          }
+                        ],
+                        "meta": {
+                          "name": "Perfect Binder"
+                        },
+                        "position": {
+                          "basis": "350px",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "props": {
+                          "direction": "column",
+                          "justify": "center",
+                          "style": {
+                            "classes": "Production_detail/Inside_card"
+                          },
+                          "wrap": "wrap"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Perfect Binder"
+                    },
+                    "position": {
+                      "basis": "30%"
+                    },
+                    "props": {
+                      "direction": "column",
+                      "justify": "space-evenly",
+                      "style": {
+                        "classes": "finger-chain-running"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Header/Title"
+                              },
+                              "text": "Delivery Conveyor"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "Label_0"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "KPI/Unit Progress/Title"
+                              },
+                              "text": "To next production line"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "DeliveryConveyorMechanism"
+                            },
+                            "props": {
+                              "elements": [
+                                {
+                                  "fill": {
+                                    "paint": "#0b1320"
+                                  },
+                                  "height": 24,
+                                  "name": "bed",
+                                  "rx": 4,
+                                  "stroke": {
+                                    "paint": "#1e2c44",
+                                    "width": 1.5
+                                  },
+                                  "type": "rect",
+                                  "width": 140,
+                                  "x": 10,
+                                  "y": 55
+                                },
+                                {
+                                  "d": "M 25 53 H 135 C 142 53, 142 77, 135 77 H 25 C 18 77, 18 53, 25 53 Z",
+                                  "fill": {
+                                    "paint": "transparent"
+                                  },
+                                  "name": "belt_loop",
+                                  "stroke": {
+                                    "paint": "#253754",
+                                    "width": 4
+                                  },
+                                  "type": "path"
+                                },
+                                {
+                                  "cx": 30,
+                                  "cy": 65,
+                                  "fill": {
+                                    "paint": "#152238"
+                                  },
+                                  "name": "r1",
+                                  "r": 9,
+                                  "stroke": {
+                                    "paint": "#3b5278",
+                                    "width": 2
+                                  },
+                                  "type": "circle"
+                                },
+                                {
+                                  "cx": 63,
+                                  "cy": 65,
+                                  "fill": {
+                                    "paint": "#152238"
+                                  },
+                                  "name": "r2",
+                                  "r": 9,
+                                  "stroke": {
+                                    "paint": "#3b5278",
+                                    "width": 2
+                                  },
+                                  "type": "circle"
+                                },
+                                {
+                                  "cx": 97,
+                                  "cy": 65,
+                                  "fill": {
+                                    "paint": "#152238"
+                                  },
+                                  "name": "r3",
+                                  "r": 9,
+                                  "stroke": {
+                                    "paint": "#3b5278",
+                                    "width": 2
+                                  },
+                                  "type": "circle"
+                                },
+                                {
+                                  "cx": 130,
+                                  "cy": 65,
+                                  "fill": {
+                                    "paint": "#152238"
+                                  },
+                                  "name": "r4",
+                                  "r": 9,
+                                  "stroke": {
+                                    "paint": "#3b5278",
+                                    "width": 2
+                                  },
+                                  "type": "circle"
+                                },
+                                {
+                                  "fill": {
+                                    "paint": "#1e293b"
+                                  },
+                                  "height": 26,
+                                  "name": "book",
+                                  "rx": 2,
+                                  "stroke": {
+                                    "paint": "#38bdf8",
+                                    "width": 1.5
+                                  },
+                                  "type": "rect",
+                                  "width": 65,
+                                  "x": 42,
+                                  "y": 24
+                                },
+                                {
+                                  "fill": {
+                                    "paint": "#10b981"
+                                  },
+                                  "height": 26,
+                                  "name": "spine",
+                                  "rx": 1,
+                                  "type": "rect",
+                                  "width": 7,
+                                  "x": 42,
+                                  "y": 24
+                                },
+                                {
+                                  "d": "M 115 37 L 138 37 M 131 31 L 138 37 L 131 43",
+                                  "name": "arrow",
+                                  "stroke": {
+                                    "paint": "#10b981",
+                                    "width": 2.5
+                                  },
+                                  "type": "path"
+                                }
+                              ],
+                              "style": {
+                                "overflow": "hidden"
+                              },
+                              "viewBox": "0 0 160 100"
+                            },
+                            "type": "ia.shapes.svg"
+                          },
+                          {
+                            "meta": {
+                              "name": "Label_2"
+                            },
+                            "position": {
+                              "basis": "48px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "KPI/Unit Progress/Title"
+                              },
+                              "text": "Downstream Ready"
+                            },
+                            "type": "ia.display.label"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "200px",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "props": {
+                          "alignItems": "center",
+                          "direction": "column",
+                          "justify": "space-evenly",
+                          "style": {
+                            "classes": "Production_detail/Card_Detail_1 Production_detail/Inside_card"
+                          }
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "DeliveryConveyor"
+                    },
+                    "position": {
+                      "basis": "20%"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "finger-chain-running"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "Detail"
+                },
+                "position": {
+                  "basis": "400px",
+                  "grow": 1
+                },
+                "props": {
+                  "style": {
+                    "classes": "Production_detail/Card_Detail"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "LineOverview"
+            },
+            "position": {
+              "basis": "64%"
+            },
+            "props": {
+              "direction": "column",
+              "justify": "space-around",
+              "style": {
+                "classes": "finger-chain-running"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "head"
+                },
+                "position": {
+                  "basis": "90px"
+                },
+                "props": {
+                  "params": {
+                    "status": "Current shift",
+                    "title": "Current Production Order"
+                  },
+                  "path": "template/header_pad"
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "50px",
+                          "grow": 1
+                        },
+                        "propConfig": {
+                          "props.text": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.po"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "KPI/Value"
+                          }
+                        },
+                        "type": "ia.display.label"
+                      }
+                    ],
+                    "meta": {
+                      "name": "po"
+                    },
+                    "position": {
+                      "basis": "60px"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "job"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.job"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "binding"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.binding"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "bookType"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.bookType"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "coverMode"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.coverMode"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "bookSize"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.bookSize"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "thickness"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.thickness"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "coverSize"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.coverSize"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      },
+                      {
+                        "meta": {
+                          "name": "coverThickness"
+                        },
+                        "position": {
+                          "basis": "25%",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.coverThickness"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Production_order"
+                        },
+                        "type": "ia.display.view"
+                      }
+                    ],
+                    "meta": {
+                      "name": "detail"
+                    },
+                    "position": {
+                      "basis": "240px"
+                    },
+                    "props": {
+                      "alignContent": "space-around",
+                      "alignItems": "center",
+                      "justify": "space-evenly",
+                      "wrap": "wrap"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "EmbeddedView_3"
+                        },
+                        "position": {
+                          "basis": "320px",
+                          "grow": 1,
+                          "shrink": 0
+                        },
+                        "propConfig": {
+                          "props.params": {
+                            "binding": {
+                              "config": {
+                                "path": "view.custom.CurrentProductOrder.Bar"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "path": "template/Progress"
+                        },
+                        "type": "ia.display.view"
+                      }
+                    ],
+                    "meta": {
+                      "name": "bar"
+                    },
+                    "position": {
+                      "basis": "160px"
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "detail"
+                },
+                "position": {
+                  "basis": "400px",
+                  "grow": 1
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "classes": "Production_detail/Card_Detail"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "CurrentProductOrder"
+            },
+            "position": {
+              "basis": "36%"
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "classes": "finger-chain-running"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Overview"
+        },
+        "position": {
+          "basis": "600px",
+          "shrink": 0
+        },
+        "props": {
+          "justify": "space-evenly",
+          "style": {
+            "classes": "BG"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "head"
+                },
+                "position": {
+                  "basis": "90px"
+                },
+                "props": {
+                  "params": {
+                    "status": "Plan vs Actual",
+                    "title": "Production Trend"
+                  },
+                  "path": "template/header_pad"
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "TimeSeriesChart_0"
+                    },
+                    "position": {
+                      "basis": "400px",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "plots": [
+                        {
+                          "axes": [],
+                          "markers": [],
+                          "relativeWeight": 1,
+                          "trends": [
+                            {
+                              "axis": "",
+                              "baselines": [],
+                              "breakLine": true,
+                              "columns": [
+                                {
+                                  "color": "#0FC9FF",
+                                  "key": "Actual",
+                                  "styles": {
+                                    "highlighted": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    },
+                                    "muted": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    },
+                                    "normal": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": 3
+                                      }
+                                    },
+                                    "selected": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "color": "#638895",
+                                  "key": "Plan",
+                                  "styles": {
+                                    "highlighted": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    },
+                                    "muted": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    },
+                                    "normal": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": 2
+                                      }
+                                    },
+                                    "selected": {
+                                      "fill": {
+                                        "color": "",
+                                        "opacity": null
+                                      },
+                                      "stroke": {
+                                        "color": "",
+                                        "dashArray": null,
+                                        "opacity": null,
+                                        "width": null
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "interpolation": "curveLinear",
+                              "radius": 2,
+                              "series": "Production",
+                              "stack": true,
+                              "type": "line",
+                              "visible": true
+                            }
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            {
+                              "Actual": 12,
+                              "Plan": 20,
+                              "time": 1560469431423
+                            },
+                            {
+                              "Actual": 42,
+                              "Plan": 40,
+                              "time": 1560469432423
+                            },
+                            {
+                              "Actual": 81,
+                              "Plan": 80,
+                              "time": 1560469433423
+                            },
+                            {
+                              "Actual": 11,
+                              "Plan": 30,
+                              "time": 1560469434423
+                            },
+                            {
+                              "Actual": 23,
+                              "Plan": 25,
+                              "time": 1560469435423
+                            },
+                            {
+                              "Actual": 43,
+                              "Plan": 45,
+                              "time": 1560469436423
+                            },
+                            {
+                              "Actual": 71,
+                              "Plan": 70,
+                              "time": 1560469437423
+                            },
+                            {
+                              "Actual": 89,
+                              "Plan": 85,
+                              "time": 1560469438423
+                            },
+                            {
+                              "Actual": 66,
+                              "Plan": 75,
+                              "time": 1560469439423
+                            },
+                            {
+                              "Actual": 33,
+                              "Plan": 35,
+                              "time": 1560469440423
+                            }
+                          ],
+                          "name": "Production"
+                        }
+                      ]
+                    },
+                    "type": "ia.chart.timeseries"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "400px",
+                  "grow": 1
+                },
+                "props": {
+                  "style": {
+                    "classes": "Production_detail/Card_Detail"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "ProductionTrend"
+            },
+            "position": {
+              "basis": "64%"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "head"
+                },
+                "position": {
+                  "basis": "90px"
+                },
+                "props": {
+                  "params": {
+                    "status": "Current shift",
+                    "title": "Active Alarm \u0026 Event"
+                  },
+                  "path": "template/header_pad"
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "contextMenu": {
+                        "style": {
+                          "classes": "BG_table"
+                        }
+                      },
+                      "name": "AlarmStatusTable",
+                      "tooltip": {
+                        "style": {
+                          "classes": "BG_table"
+                        }
+                      }
+                    },
+                    "position": {
+                      "basis": "100%",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "BG_table"
+                      },
+                      "toolbar": {
+                        "enablePreFilters": false
+                      }
+                    },
+                    "type": "ia.display.alarmstatustable"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "400px",
+                  "grow": 1
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "classes": "Production_detail/Card_Detail"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Alarm"
+            },
+            "position": {
+              "basis": "36%"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Graphlog"
+        },
+        "position": {
+          "basis": "600px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "BG"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "head"
+                },
+                "position": {
+                  "basis": "90px",
+                  "shrink": 0
+                },
+                "props": {
+                  "params": {
+                    "status": "Plan vs Actual",
+                    "title": "Equipment / Station Detail"
+                  },
+                  "path": "template/header_pad"
+                },
+                "type": "ia.display.view"
+              },
+              {
+                "children": [
+                  {
+                    "events": {
+                      "component": {
+                        "onRowClick": {
+                          "config": {
+                            "draggable": true,
+                            "id": "p-d6fcDH",
+                            "modal": false,
+                            "overlayDismiss": true,
+                            "resizable": true,
+                            "showCloseIcon": true,
+                            "type": "open",
+                            "viewPath": "template/Popup_glue",
+                            "viewportBound": false
+                          },
+                          "scope": "C",
+                          "type": "popup"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Table"
+                    },
+                    "position": {
+                      "basis": "400px",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "props.data": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.Equipment"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "bodyStyle": {
+                        "classes": "Table/BG_table"
+                      },
+                      "cells": {
+                        "style": {
+                          "classes": "Table/BG_table Table/Detail_table"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "equipment",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Equipment"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "status",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Status"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "speed",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Speed / Value"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "good",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Good"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "reject",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Reject"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "downtime",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Downtime"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "lastEvent",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": "Last Event"
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": true,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": ""
+                        }
+                      ],
+                      "footerGroupStyle": {
+                        "classes": "Table/BG_table"
+                      },
+                      "footerStyle": {
+                        "classes": "Table/BG_table"
+                      },
+                      "headerGroupStyle": {
+                        "classes": "Table/BG_table"
+                      },
+                      "headerStyle": {
+                        "classes": "Table/BG_table Table/Header_table"
+                      },
+                      "pager": {
+                        "bottom": false
+                      },
+                      "rows": {
+                        "style": {
+                          "classes": "Table/BG_table",
+                          "paddingLeft": 10,
+                          "paddingTop": 25
+                        }
+                      },
+                      "style": {
+                        "classes": "BG_table"
+                      }
+                    },
+                    "type": "ia.display.table"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "400px",
+                  "grow": 1,
+                  "shrink": 0
+                },
+                "props": {
+                  "style": {
+                    "classes": "Production_detail/Card_Detail"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Equipment"
+            },
+            "position": {
+              "basis": "64%",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Equipment"
+        },
+        "position": {
+          "basis": "600px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "BG"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "BG",
+        "overflowX": "hidden",
+        "overflowY": "scroll"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

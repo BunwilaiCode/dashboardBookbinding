@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "color": "#BDC2CE",
+      "fontSize": "20px",
+      "textAlign": "center"
+    }
+  }
+}

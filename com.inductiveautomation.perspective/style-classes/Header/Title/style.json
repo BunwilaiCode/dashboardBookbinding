@@ -1,0 +1,10 @@
+{
+  "base": {
+    "style": {
+      "color": "#BDC2CE",
+      "fontSize": "24px",
+      "fontWeight": "900",
+      "padding": "16px"
+    }
+  }
+}

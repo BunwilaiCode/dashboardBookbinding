@@ -1,0 +1,16 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#161A26",
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+      "borderTopLeftRadius": "100px",
+      "borderTopRightRadius": "100px",
+      "borderBottomLeftRadius": "100px",
+      "borderBottomRightRadius": "100px",
+      "color": "#BDC2CE",
+      "fontSize": "16px",
+      "textAlign": "center"
+    }
+  }
+}

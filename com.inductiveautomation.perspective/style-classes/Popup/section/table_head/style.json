@@ -1,0 +1,11 @@
+{
+  "base": {
+    "style": {
+      "color": "#BDC2CE",
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "padding": "10px",
+      "textAlign": "start"
+    }
+  }
+}

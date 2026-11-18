@@ -1,0 +1,280 @@
+{
+  "custom": {
+    "key": {},
+    "key_1": []
+  },
+  "params": {},
+  "propConfig": {
+    "custom.key": {
+      "persistent": true
+    },
+    "custom.key_1": {
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1600
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Head"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "style": {
+            "classes": "Popup/Title_BG"
+          },
+          "text": "Glue Temperature Monitoring"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Current"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Current Temp",
+                "value": 186.5
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "SetPoint"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Setpoint",
+                "value": 190
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "Tank"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Tank Level",
+                "value": "91%"
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "Card"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "TimeSeriesChart"
+        },
+        "position": {
+          "basis": "400px",
+          "grow": 1,
+          "shrink": 0
+        },
+        "props": {
+          "plots": [
+            {
+              "axes": [],
+              "markers": [],
+              "relativeWeight": 1,
+              "trends": [
+                {
+                  "axis": "",
+                  "baselines": [],
+                  "breakLine": true,
+                  "columns": [
+                    {
+                      "color": "#2DAACF",
+                      "key": "Temperature",
+                      "styles": {
+                        "highlighted": {
+                          "fill": {
+                            "color": "",
+                            "opacity": null
+                          },
+                          "stroke": {
+                            "color": "",
+                            "dashArray": null,
+                            "opacity": null,
+                            "width": null
+                          }
+                        },
+                        "muted": {
+                          "fill": {
+                            "color": "",
+                            "opacity": null
+                          },
+                          "stroke": {
+                            "color": "",
+                            "dashArray": null,
+                            "opacity": null,
+                            "width": null
+                          }
+                        },
+                        "normal": {
+                          "fill": {
+                            "color": "",
+                            "opacity": null
+                          },
+                          "stroke": {
+                            "color": "",
+                            "dashArray": null,
+                            "opacity": null,
+                            "width": 3
+                          }
+                        },
+                        "selected": {
+                          "fill": {
+                            "color": "",
+                            "opacity": null
+                          },
+                          "stroke": {
+                            "color": "",
+                            "dashArray": null,
+                            "opacity": null,
+                            "width": null
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "interpolation": "curveLinear",
+                  "radius": 2,
+                  "series": "Boiler",
+                  "stack": true,
+                  "type": "line",
+                  "visible": true
+                }
+              ]
+            }
+          ],
+          "series": [
+            {
+              "data": [
+                {
+                  "Pressure": 12,
+                  "Temperature": 52,
+                  "time": 1560469431423
+                },
+                {
+                  "Pressure": 42,
+                  "Temperature": 18,
+                  "time": 1560469432423
+                },
+                {
+                  "Pressure": 81,
+                  "Temperature": 26,
+                  "time": 1560469433423
+                },
+                {
+                  "Pressure": 11,
+                  "Temperature": 63,
+                  "time": 1560469434423
+                },
+                {
+                  "Pressure": 23,
+                  "Temperature": 65,
+                  "time": 1560469435423
+                },
+                {
+                  "Pressure": 43,
+                  "Temperature": 12,
+                  "time": 1560469436423
+                },
+                {
+                  "Pressure": 71,
+                  "Temperature": 61,
+                  "time": 1560469437423
+                },
+                {
+                  "Pressure": 89,
+                  "Temperature": 60,
+                  "time": 1560469438423
+                },
+                {
+                  "Pressure": 66,
+                  "Temperature": 58,
+                  "time": 1560469439423
+                },
+                {
+                  "Pressure": 33,
+                  "Temperature": 1,
+                  "time": 1560469440423
+                }
+              ],
+              "name": "Boiler"
+            }
+          ],
+          "style": {
+            "classes": "Popup/section/Card"
+          },
+          "title": {
+            "font": {
+              "color": "#EDF0FF",
+              "size": 20
+            },
+            "style": {
+              "classes": "Popup/Title_incard"
+            },
+            "text": "Historical Temperature Trend",
+            "visible": true
+          }
+        },
+        "type": "ia.chart.timeseries"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Popup/BG",
+        "overflowX": "hidden",
+        "overflowY": "scroll"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

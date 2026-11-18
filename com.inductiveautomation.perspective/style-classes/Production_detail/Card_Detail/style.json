@@ -1,0 +1,16 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#222631",
+      "borderColor": "#3A4257",
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+      "borderBottomLeftRadius": "12px",
+      "borderBottomRightRadius": "12px",
+      "boxShadow": "0 10px 28px rgba(0,0,0,0.25)",
+      "margin": "16px",
+      "marginTop": "0px",
+      "padding": "16px"
+    }
+  }
+}

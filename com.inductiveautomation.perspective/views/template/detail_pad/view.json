@@ -1,0 +1,35 @@
+{
+  "custom": {},
+  "params": {
+    "status": "Current shift",
+    "title": "Current Production Order"
+  },
+  "propConfig": {
+    "params.status": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.title": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 80,
+      "width": 480
+    }
+  },
+  "root": {
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "justify": "space-between",
+      "style": {
+        "classes": "Production_detail/Card_Detail"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

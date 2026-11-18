@@ -1,0 +1,820 @@
+{
+  "custom": {
+    "Parameter": [
+      {
+        "error": 1,
+        "parameter": "Cover Width (Open Flat)",
+        "recipe": 432.5,
+        "sensor": 431.5
+      },
+      {
+        "error": 2,
+        "parameter": "Cover Thickness",
+        "recipe": 432.5,
+        "sensor": 430.5
+      },
+      {
+        "error": 1,
+        "parameter": "Cover Spine Length\n",
+        "recipe": 218.5,
+        "sensor": 214.5
+      }
+    ]
+  },
+  "params": {},
+  "propConfig": {
+    "custom.Parameter": {
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1600
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Head"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "style": {
+            "classes": "Popup/Title_BG"
+          },
+          "text": "Cover Feeder \u0026 Alignment Diagnostics"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "SpineCenterOffset"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Spine Center Offset",
+                "value": "+0.12 mm"
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "FeedRate"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Feed Rate",
+                "value": "38 paper/min"
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "CoversFed"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Covers Fed",
+                "value": 8465
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "TraySupply"
+            },
+            "position": {
+              "basis": "320px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "Color": "#EDF0FF",
+                "title": "Tray Supply",
+                "value": "91%"
+              },
+              "path": "template/Popup_insideCard"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "Card"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "24px",
+                  "shrink": 0
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/Title_incard"
+                  },
+                  "text": "Cover Dimension Verification"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Parameter"
+                    },
+                    "position": {
+                      "basis": "50%",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Popup/section/table_head"
+                      },
+                      "text": "Parameter (mm)"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "RecipeTarget"
+                    },
+                    "position": {
+                      "basis": "20%",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Popup/section/table_head"
+                      },
+                      "text": "Recipe Target (mm)"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "SensorMeasured"
+                    },
+                    "position": {
+                      "basis": "20%",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Popup/section/table_head"
+                      },
+                      "text": "Sensor Measured (mm)"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "Error"
+                    },
+                    "position": {
+                      "basis": "10%",
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Popup/section/table_head"
+                      },
+                      "text": "Error (mm)"
+                    },
+                    "type": "ia.display.label"
+                  }
+                ],
+                "meta": {
+                  "name": "Header"
+                },
+                "position": {
+                  "basis": "50px",
+                  "shrink": 0
+                },
+                "props": {
+                  "alignItems": "flex-start"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "Table"
+                },
+                "position": {
+                  "basis": "400px"
+                },
+                "propConfig": {
+                  "props.data": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.Parameter"
+                      },
+                      "type": "property"
+                    }
+                  },
+                  "props.data[0].error": {
+                    "binding": {
+                      "config": {
+                        "expression": "{this.props.data[0].recipe} - {this.props.data[0].sensor}"
+                      },
+                      "type": "expr"
+                    }
+                  },
+                  "props.data[1].error": {
+                    "binding": {
+                      "config": {
+                        "expression": "{this.props.data[1].recipe} - {this.props.data[1].sensor}"
+                      },
+                      "type": "expr"
+                    }
+                  },
+                  "props.data[2].error": {
+                    "binding": {
+                      "config": {
+                        "expression": "{this.props.data[2].recipe} - {this.props.data[2].sensor}"
+                      },
+                      "type": "expr"
+                    }
+                  }
+                },
+                "props": {
+                  "columns": [
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "parameter",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": "Parameter (mm)"
+                      },
+                      "justify": "auto",
+                      "key": "value",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": true,
+                      "sort": "none",
+                      "sortable": true,
+                      "strictWidth": false,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": ""
+                    },
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "recipe",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": "Recipe Target (mm)"
+                      },
+                      "justify": "auto",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": true,
+                      "sort": "none",
+                      "sortable": true,
+                      "strictWidth": false,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": ""
+                    },
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "sensor",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": "Sensor Measured (mm)"
+                      },
+                      "justify": "auto",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": true,
+                      "sort": "none",
+                      "sortable": true,
+                      "strictWidth": false,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": ""
+                    },
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "error",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": "Error (mm)"
+                      },
+                      "justify": "auto",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": true,
+                      "sort": "none",
+                      "sortable": true,
+                      "strictWidth": false,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": ""
+                    }
+                  ],
+                  "pager": {
+                    "bottom": false
+                  },
+                  "selection": {
+                    "enableRowSelection": false
+                  },
+                  "virtualized": false
+                },
+                "type": "ia.display.table"
+              }
+            ],
+            "meta": {
+              "name": "Cause"
+            },
+            "position": {
+              "basis": "200px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "classes": "Popup/section/Card"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Section1"
+        },
+        "position": {
+          "basis": "316px"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "24px",
+                  "shrink": 0
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/Title_incard"
+                  },
+                  "text": "Spine Center Offset History"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TimeSeriesChart"
+                },
+                "position": {
+                  "basis": "400px"
+                },
+                "props": {
+                  "series": [
+                    {
+                      "data": [
+                        {
+                          "Pressure": 12,
+                          "Temperature": 52,
+                          "time": 1560469431423
+                        },
+                        {
+                          "Pressure": 42,
+                          "Temperature": 18,
+                          "time": 1560469432423
+                        },
+                        {
+                          "Pressure": 81,
+                          "Temperature": 26,
+                          "time": 1560469433423
+                        },
+                        {
+                          "Pressure": 11,
+                          "Temperature": 63,
+                          "time": 1560469434423
+                        },
+                        {
+                          "Pressure": 23,
+                          "Temperature": 65,
+                          "time": 1560469435423
+                        },
+                        {
+                          "Pressure": 43,
+                          "Temperature": 12,
+                          "time": 1560469436423
+                        },
+                        {
+                          "Pressure": 71,
+                          "Temperature": 61,
+                          "time": 1560469437423
+                        },
+                        {
+                          "Pressure": 89,
+                          "Temperature": 60,
+                          "time": 1560469438423
+                        },
+                        {
+                          "Pressure": 66,
+                          "Temperature": 58,
+                          "time": 1560469439423
+                        },
+                        {
+                          "Pressure": 33,
+                          "Temperature": 1,
+                          "time": 1560469440423
+                        }
+                      ],
+                      "name": "Boiler"
+                    }
+                  ]
+                },
+                "type": "ia.chart.timeseries"
+              }
+            ],
+            "meta": {
+              "name": "Cause"
+            },
+            "position": {
+              "basis": "200px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "classes": "Popup/section/Card"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Section2"
+        },
+        "position": {
+          "basis": "316px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Popup/BG",
+        "overflowX": "hidden",
+        "overflowY": "scroll"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

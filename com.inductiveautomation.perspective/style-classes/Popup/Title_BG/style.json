@@ -1,0 +1,16 @@
+{
+  "base": {
+    "style": {
+      "color": "#EDF0FF",
+      "fontSize": "40px",
+      "fontWeight": "900",
+      "margin": "20px",
+      "marginBottom": "40px",
+      "padding": "20px",
+      "paddingBottom": "20px",
+      "paddingLeft": "20px",
+      "paddingTop": "20px",
+      "textAlign": "start"
+    }
+  }
+}
